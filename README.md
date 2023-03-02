@@ -3,16 +3,16 @@ The ebarter system with enforced security is a web-based application designed to
 
 ## Functional Requirements
 
-*User Registration and Login: The system should allow users to register with the system by providing basic personal information and creating a unique login ID and password. Users should be able to log in to the system using their login ID and password.
+⋅⋅* User Registration and Login: The system should allow users to register with the system by providing basic personal information and creating a unique login ID and password. Users should be able to log in to the system using their login ID and password.
 
-*Secure Messaging: The system should allow users to send and receive messages with other users securely. The system should provide end-to-end encryption for all messages to ensure that no third-party can access the content of the messages.
+⋅⋅* Secure Messaging: The system should allow users to send and receive messages with other users securely. The system should provide end-to-end encryption for all messages to ensure that no third-party can access the content of the messages.
 
-*User Profile: The system should allow users to create a profile page that displays all of their relevant information, such as name, contact information, location, and a profile picture. Users should be able to edit their profile information and upload a profile picture.
+⋅⋅* User Profile: The system should allow users to create a profile page that displays all of their relevant information, such as name, contact information, location, and a profile picture. Users should be able to edit their profile information and upload a profile picture.
 
-*Item Listing: The system should allow users to list items for trade or sale. Each item listing should include information such as item name, description, category, condition, and images. Users should be able to edit or delete their listings.
+⋅⋅* Item Listing: The system should allow users to list items for trade or sale. Each item listing should include information such as item name, description, category, condition, and images. Users should be able to edit or delete their listings.
 
-*Reviews and Ratings: The system should allow users to rate and post reviews for other users and their listed items. The system should calculate an overall rating for each user based on their reviews and ratings.
+⋅⋅* Reviews and Ratings: The system should allow users to rate and post reviews for other users and their listed items. The system should calculate an overall rating for each user based on their reviews and ratings.
 
-*Home Page: The system should have a homepage that displays all of the items that are listed, including their images and basic information. The homepage should also include a search bar and filters to allow users to sort the items by category, price range, and location.
+⋅⋅* Home Page: The system should have a homepage that displays all of the items that are listed, including their images and basic information. The homepage should also include a search bar and filters to allow users to sort the items by category, price range, and location.
 
-*Enforced Security: The system should have enforced security measures to prevent users from violating the terms and conditions of the system. The system should be able to detect and report any suspicious activity or violation of rules, and automatically punish the user for repeated violations.
+⋅⋅* Enforced Security: The system should have enforced security measures to prevent users from violating the terms and conditions of the system. The system should be able to detect and report any suspicious activity or violation of rules, and automatically punish the user for repeated violations.
