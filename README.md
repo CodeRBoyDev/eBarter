@@ -1,62 +1,18 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## e-Barter
+The ebarter system with enforced security is a web-based application designed to facilitate trading or selling items among users. Users can register, log in, and create a profile page displaying their information and a profile picture. They can list items for trade or sale, send and receive secure messages, and rate and review other users and their items. The homepage displays all items listed, and users can sort and search by category, price range, and location. The system's enforced security measures detect and report suspicious activity or rule violations, and automatically punish users for repeated violations. Overall, the ebarter system provides a reliable, user-friendly, and secure platform for trading or selling items among users.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Functional Requirements
 
-## About Laravel
+User Registration and Login: The system should allow users to register with the system by providing basic personal information and creating a unique login ID and password. Users should be able to log in to the system using their login ID and password.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Secure Messaging: The system should allow users to send and receive messages with other users securely. The system should provide end-to-end encryption for all messages to ensure that no third-party can access the content of the messages.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+User Profile: The system should allow users to create a profile page that displays all of their relevant information, such as name, contact information, location, and a profile picture. Users should be able to edit their profile information and upload a profile picture.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Item Listing: The system should allow users to list items for trade or sale. Each item listing should include information such as item name, description, category, condition, and images. Users should be able to edit or delete their listings.
 
-## Learning Laravel
+Reviews and Ratings: The system should allow users to rate and post reviews for other users and their listed items. The system should calculate an overall rating for each user based on their reviews and ratings.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Home Page: The system should have a homepage that displays all of the items that are listed, including their images and basic information. The homepage should also include a search bar and filters to allow users to sort the items by category, price range, and location.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Enforced Security: The system should have enforced security measures to prevent users from violating the terms and conditions of the system. The system should be able to detect and report any suspicious activity or violation of rules, and automatically punish the user for repeated violations.
