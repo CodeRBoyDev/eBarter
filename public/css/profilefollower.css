@@ -1,0 +1,92 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+.avatars {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    white-space: nowrap;
+    border-radius: 1000px;
+    vertical-align: bottom
+}
+
+.avatars i {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 100%
+}
+
+.avatars img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 0 none;
+    border-radius: 1000px
+}
+
+.avatars-online i {
+    background-color: #4caf50
+}
+
+.avatars-off i {
+    background-color: #616161
+}
+
+.avatars-busy i {
+    background-color: #ff9800
+}
+
+.avatars-away i {
+    background-color: #f44336
+}
+
+.avatars-100 {
+    width: 100px
+}
+
+.avatars-100 i {
+    height: 20px;
+    width: 20px
+}
+
+.avatars-lg {
+    width: 50px
+}
+
+.avatars-lg i {
+    height: 12px;
+    width: 12px
+}
+
+.avatars-sm {
+    width: 30px
+}
+
+.avatars-sm i {
+    height: 8px;
+    width: 8px
+}
+
+.avatars-xs {
+    width: 20px
+}
+
+.avatars-xs i {
+    height: 7px;
+    width: 7px
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
